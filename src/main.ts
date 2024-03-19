@@ -1,7 +1,7 @@
-import Address from "./domain/entity/address";
-import Order from "./domain/entity/order";
-import OrderItem from "./domain/entity/orderItem";
-import Customer from "./domain/entity/customer";
+import Address from "./domain/customer/value-object/address";
+import Order from "./domain/checkout/entity/order";
+import OrderItem from "./domain/checkout/entity/orderItem";
+import Customer from "./domain/customer/entity/customer";
 
 let customer = new Customer("123","Carlos Henrique");
 let address = new Address("Rua Dep. Fernando Ferrari",245,"19013730","Presidente Prudente");

@@ -108,6 +108,6 @@
   },
   "include": [
     "src/**/*.ts"
-, "src/infrastructure/repository/order.repository.spec.ts"  ],
+, "src/infrastructure/checkout/repository/sequilize/order.repository.spec.ts"  ],
   
 }
